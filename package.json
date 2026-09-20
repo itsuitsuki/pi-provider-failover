@@ -1,0 +1,15 @@
+{
+  "name": "pi-provider-failover",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Optional provider failover with automatic recovery",
+  "keywords": ["pi-package"],
+  "engines": { "node": ">=22.19.0" },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
